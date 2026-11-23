@@ -10,7 +10,15 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/shaunhuynhaegistack/BeeTest/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/shaunhuynhaegistack/BeeTest?label=release&color=f5b400"></a>
+  <a href="https://github.com/shaunhuynhaegistack/BeeTest/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/shaunhuynhaegistack/BeeTest/total?color=2f6fed"></a>
+  <a href="https://discord.gg/xrbspQ5gDY"><img alt="Discord" src="https://img.shields.io/badge/Discord-join%20the%20community-5865F2?logo=discord&logoColor=white"></a>
+  <a href="https://github.com/shaunhuynhaegistack/BeeTest/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/shaunhuynhaegistack/BeeTest?style=social"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/shaunhuynhaegistack/BeeTest/releases/latest"><b>⬇ Download the latest release</b></a> ·
+  <a href="https://discord.gg/xrbspQ5gDY"><b>💬 Join the Discord</b></a> ·
   <a href="https://beetest.cloud">Website</a> ·
   <a href="https://beetest.cloud/pricing/">Pricing</a>
 </p>
@@ -20,21 +28,21 @@
 This repository hosts the **BeeTest desktop installers** and their release notes. It does not contain the BeeTest
 source code. Download the installers from [Releases](https://github.com/shaunhuynhaegistack/BeeTest/releases).
 
-> **Tester release.** BeeTest 3.0.0 is an early version for testers. Please report anything that looks wrong (see
+> **Tester release.** BeeTest 3.0.1 is an early version for testers. Please report anything that looks wrong (see
 > [Reporting issues](#reporting-issues)).
 
 ![BeeTest overview](docs/overview.webp)
 
 ## Download
 
-Latest version: **3.0.0** (2026-11-23)
+Latest version: **3.0.1** (2026-11-23)
 
 | Your computer | File | |
 |---|---|---|
-| Mac with Apple silicon (M1, M2, M3, M4 …) | `BeeTest-3.0.0-mac-arm64.dmg` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.0/BeeTest-3.0.0-mac-arm64.dmg) |
-| Mac with an Intel processor | `BeeTest-3.0.0-mac-x64.dmg` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.0/BeeTest-3.0.0-mac-x64.dmg) |
-| Windows 10 / 11, 64-bit (installer) | `BeeTest-Setup-3.0.0-win-x64.exe` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.0/BeeTest-Setup-3.0.0-win-x64.exe) |
-| Windows 10 / 11, 64-bit (portable, no install) | `BeeTest-3.0.0-win-x64-portable.zip` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.0/BeeTest-3.0.0-win-x64-portable.zip) |
+| Mac with Apple silicon (M1, M2, M3, M4 …) | `BeeTest-3.0.1-mac-arm64.dmg` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.1/BeeTest-3.0.1-mac-arm64.dmg) |
+| Mac with an Intel processor | `BeeTest-3.0.1-mac-x64.dmg` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.1/BeeTest-3.0.1-mac-x64.dmg) |
+| Windows 10 / 11, 64-bit (installer) | `BeeTest-Setup-3.0.1-win-x64.exe` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.1/BeeTest-Setup-3.0.1-win-x64.exe) |
+| Windows 10 / 11, 64-bit (portable, no install) | `BeeTest-3.0.1-win-x64-portable.zip` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.1/BeeTest-3.0.1-win-x64-portable.zip) |
 
 Not sure which Mac you have? Apple menu › **About This Mac**. "Chip Apple M…" means Apple silicon (arm64).
 
@@ -85,11 +93,11 @@ Each release also has `SHA256SUMS.txt` (to check a download) and `latest.json` (
 
 ## Install on Windows
 
-1. Download `BeeTest-Setup-3.0.0-win-x64.exe` and open it.
+1. Download `BeeTest-Setup-3.0.1-win-x64.exe` and open it.
 2. The app is **not code-signed yet**, so Microsoft Defender **SmartScreen** may say "Windows protected your PC".
    Click **More info › Run anyway**.
 3. Follow the installer (you can choose the install folder), then start BeeTest from the Start menu.
-4. If you cannot run an installer, use `BeeTest-3.0.0-win-x64-portable.zip`: unzip it and run `BeeTest.exe`.
+4. If you cannot run an installer, use `BeeTest-3.0.1-win-x64-portable.zip`: unzip it and run `BeeTest.exe`.
 
 ## Check a download (optional)
 
@@ -98,13 +106,13 @@ Compare the SHA-256 of the file with the line for it in `SHA256SUMS.txt` of the 
 macOS:
 
 ```bash
-shasum -a 256 ~/Downloads/BeeTest-3.0.0-mac-arm64.dmg
+shasum -a 256 ~/Downloads/BeeTest-3.0.1-mac-arm64.dmg
 ```
 
 Windows (PowerShell):
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\BeeTest-Setup-3.0.0-win-x64.exe"
+Get-FileHash "$env:USERPROFILE\Downloads\BeeTest-Setup-3.0.1-win-x64.exe"
 ```
 
 ## Update
@@ -124,6 +132,15 @@ projects and settings are kept: they live in your user data folder, not in the a
 
 Upgrade inside the app: **Profile › Plan**. See [beetest.cloud/pricing](https://beetest.cloud/pricing/).
 
+## Community and early testers
+
+- **⭐ Star this repository** to get notified about every new release.
+- **💬 [Join the BeeTest Discord](https://discord.gg/xrbspQ5gDY)**: ask questions, share what you tested, vote on
+  features and meet the team.
+- **🎁 Early Tester program:** report a real bug (in the app, or in the Discord `#issues` forum) and get **3 months of
+  BeeTest Pro**.
+- Questions and ideas are also welcome in [GitHub Discussions](https://github.com/shaunhuynhaegistack/BeeTest/discussions).
+
 ## Reporting issues
 
 In the app, click **Report issue** in the left sidebar. Describe what you did, what you expected and what happened,
@@ -131,7 +148,7 @@ and attach screenshots if they help. You see a preview of exactly what is sent b
 
 The app log is under **Help › Open the log**.
 
-## Known limitations (3.0.0)
+## Known limitations (3.0.1)
 
 - The app is not code-signed (macOS not notarized, Windows without a certificate), so the first-launch warning is
   expected.
@@ -143,7 +160,8 @@ The app log is under **Help › Open the log**.
 
 ## Release notes
 
-- [3.0.0](RELEASE_NOTES.md)
+- [3.0.1](RELEASE_NOTES.md#beetest-301)
+- [3.0.0](RELEASE_NOTES.md#beetest-300)
 
 ---
 

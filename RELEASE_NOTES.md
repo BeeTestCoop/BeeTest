@@ -1,3 +1,14 @@
+# BeeTest 3.0.1
+
+Released 2026-11-23 · Desktop app for macOS and Windows · Tester release
+
+- **Issue history is easier to read**: the person and the field are in bold, a status shows as its coloured lozenge
+  (like on the board), the old value is muted and struck through, the new value is highlighted.
+- The "External link" field (a Jira / Linear link added by sync) has a readable name in the history.
+- Install steps, system requirements and known limitations are the same as 3.0.0 below.
+
+---
+
 # BeeTest 3.0.0
 
 Released 2026-11-23 · Desktop app for macOS and Windows · Tester release
