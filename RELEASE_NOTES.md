@@ -1,3 +1,33 @@
+# BeeTest 3.0.3
+
+Released 2026-11-24 · Desktop app for macOS and Windows · Tester release
+
+- **Development Testing Mode** – connect your repo with `beetest init`; every branch and PR gets the test cases its
+  change affects (with the reason and a confidence), draft test cases from ticket criteria, and every failure sorted:
+  likely bug, intended change, flaky, environment, already failing on main. One PR comment, a status and a JUnit file
+  (GitHub, GitLab, Bitbucket, Azure DevOps). `beetest merge` turns approved drafts into test cases.
+- **Generate beetest.yml with BeeTest AI** from your repository's folders, features, test cases and tickets.
+- **The knowledge base is the project's brain** – BeeTest works on its own and asks only when it has a real concern
+  (one question per topic); your answer is the approval. New tabs in AI knowledge: *Needs you*, *Knowledge*,
+  *Autonomy* and *Growth* (what BeeTest did and learned, measured from real outcomes).
+- **Community Teams** (Pro, formerly Chat) – a Teams-like **calendar** (day / week / month, recurring meetings,
+  RSVP, reminders, join the meeting call), **reactions** with BeeTest stickers, and **background effects** for video
+  calls (blur, sample backgrounds, your own picture – processed on your device).
+- **Admin mode for team owners** – one console for people (invite keys, roles, block, reset codes, owner protection
+  and transfer), projects (per-project access), Community Teams (channels, retention, meetings), billing, AI cost per
+  person with budgets, security settings and an audit log.
+- **Start or join a team** – the first sign-up creates your own team (you are its owner); others join with the secret
+  key the admin sends. No seat limit: each new member is simply billed.
+- **Clear Pro lifecycle** – reminders before the end, a 14-day grace period, nothing is ever deleted, and a plain
+  explanation for every person when Pro ends (see docs/LICENSING.md).
+- **Meetings** – chat inside the call, an AI summary of who said what and who does what (in your language), reminders
+  15 minutes before, "X joined the meeting" notices, and a redesigned call window.
+- **7 languages**: English, Tiếng Việt, 日本語, 中文, 한국어, العربية (right-to-left), ไทย.
+- Server mode for team CI runners (`BEETEST_SERVER=1`, Docker files included).
+- Install steps, system requirements and known limitations are the same as 3.0.0 below.
+
+---
+
 # BeeTest 3.0.2
 
 Released 2026-11-23 · Desktop app for macOS and Windows · Tester release
