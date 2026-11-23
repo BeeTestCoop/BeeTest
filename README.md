@@ -28,21 +28,21 @@
 This repository hosts the **BeeTest desktop installers** and their release notes. It does not contain the BeeTest
 source code. Download the installers from [Releases](https://github.com/shaunhuynhaegistack/BeeTest/releases).
 
-> **Tester release.** BeeTest 3.0.1 is an early version for testers. Please report anything that looks wrong (see
+> **Tester release.** BeeTest 3.0.2 is an early version for testers. Please report anything that looks wrong (see
 > [Reporting issues](#reporting-issues)).
 
 ![BeeTest overview](docs/overview.webp)
 
 ## Download
 
-Latest version: **3.0.1** (2026-11-23)
+Latest version: **3.0.2** (2026-11-23)
 
 | Your computer | File | |
 |---|---|---|
-| Mac with Apple silicon (M1, M2, M3, M4 …) | `BeeTest-3.0.1-mac-arm64.dmg` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.1/BeeTest-3.0.1-mac-arm64.dmg) |
-| Mac with an Intel processor | `BeeTest-3.0.1-mac-x64.dmg` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.1/BeeTest-3.0.1-mac-x64.dmg) |
-| Windows 10 / 11, 64-bit (installer) | `BeeTest-Setup-3.0.1-win-x64.exe` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.1/BeeTest-Setup-3.0.1-win-x64.exe) |
-| Windows 10 / 11, 64-bit (portable, no install) | `BeeTest-3.0.1-win-x64-portable.zip` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.1/BeeTest-3.0.1-win-x64-portable.zip) |
+| Mac with Apple silicon (M1, M2, M3, M4 …) | `BeeTest-3.0.2-mac-arm64.dmg` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.2/BeeTest-3.0.2-mac-arm64.dmg) |
+| Mac with an Intel processor | `BeeTest-3.0.2-mac-x64.dmg` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.2/BeeTest-3.0.2-mac-x64.dmg) |
+| Windows 10 / 11, 64-bit (installer) | `BeeTest-Setup-3.0.2-win-x64.exe` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.2/BeeTest-Setup-3.0.2-win-x64.exe) |
+| Windows 10 / 11, 64-bit (portable, no install) | `BeeTest-3.0.2-win-x64-portable.zip` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.2/BeeTest-3.0.2-win-x64-portable.zip) |
 
 Not sure which Mac you have? Apple menu › **About This Mac**. "Chip Apple M…" means Apple silicon (arm64).
 
@@ -93,11 +93,11 @@ Each release also has `SHA256SUMS.txt` (to check a download) and `latest.json` (
 
 ## Install on Windows
 
-1. Download `BeeTest-Setup-3.0.1-win-x64.exe` and open it.
+1. Download `BeeTest-Setup-3.0.2-win-x64.exe` and open it.
 2. The app is **not code-signed yet**, so Microsoft Defender **SmartScreen** may say "Windows protected your PC".
    Click **More info › Run anyway**.
 3. Follow the installer (you can choose the install folder), then start BeeTest from the Start menu.
-4. If you cannot run an installer, use `BeeTest-3.0.1-win-x64-portable.zip`: unzip it and run `BeeTest.exe`.
+4. If you cannot run an installer, use `BeeTest-3.0.2-win-x64-portable.zip`: unzip it and run `BeeTest.exe`.
 
 ## Check a download (optional)
 
@@ -106,13 +106,13 @@ Compare the SHA-256 of the file with the line for it in `SHA256SUMS.txt` of the 
 macOS:
 
 ```bash
-shasum -a 256 ~/Downloads/BeeTest-3.0.1-mac-arm64.dmg
+shasum -a 256 ~/Downloads/BeeTest-3.0.2-mac-arm64.dmg
 ```
 
 Windows (PowerShell):
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\BeeTest-Setup-3.0.1-win-x64.exe"
+Get-FileHash "$env:USERPROFILE\Downloads\BeeTest-Setup-3.0.2-win-x64.exe"
 ```
 
 ## Update
@@ -148,7 +148,7 @@ and attach screenshots if they help. You see a preview of exactly what is sent b
 
 The app log is under **Help › Open the log**.
 
-## Known limitations (3.0.1)
+## Known limitations (3.0.2)
 
 - The app is not code-signed (macOS not notarized, Windows without a certificate), so the first-launch warning is
   expected.
@@ -160,6 +160,7 @@ The app log is under **Help › Open the log**.
 
 ## Release notes
 
+- [3.0.2](RELEASE_NOTES.md#beetest-302)
 - [3.0.1](RELEASE_NOTES.md#beetest-301)
 - [3.0.0](RELEASE_NOTES.md#beetest-300)
 

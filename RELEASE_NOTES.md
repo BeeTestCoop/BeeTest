@@ -1,3 +1,15 @@
+# BeeTest 3.0.2
+
+Released 2026-11-23 · Desktop app for macOS and Windows · Tester release
+
+- **Hardening:** the app is now shipped minified with its code comments removed, and with Electron security fuses set
+  (the debugger and `NODE_OPTIONS` are disabled, and the app only loads from its signed archive). This raises the cost
+  of reverse-engineering; the "Created by BeeTest" attribution is kept intact.
+- No feature or behaviour changes from 3.0.1.
+- Install steps, system requirements and known limitations are the same as 3.0.0 below.
+
+---
+
 # BeeTest 3.0.1
 
 Released 2026-11-23 · Desktop app for macOS and Windows · Tester release
