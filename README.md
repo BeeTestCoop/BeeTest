@@ -10,14 +10,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/shaunhuynhaegistack/BeeTest/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/shaunhuynhaegistack/BeeTest?label=release&color=f5b400"></a>
-  <a href="https://github.com/shaunhuynhaegistack/BeeTest/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/shaunhuynhaegistack/BeeTest/total?color=2f6fed"></a>
+  <a href="https://github.com/BeeTestCoop/BeeTest/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/BeeTestCoop/BeeTest?label=release&color=f5b400"></a>
+  <a href="https://github.com/BeeTestCoop/BeeTest/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/BeeTestCoop/BeeTest/total?color=2f6fed"></a>
   <a href="https://discord.gg/xrbspQ5gDY"><img alt="Discord" src="https://img.shields.io/badge/Discord-join%20the%20community-5865F2?logo=discord&logoColor=white"></a>
-  <a href="https://github.com/shaunhuynhaegistack/BeeTest/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/shaunhuynhaegistack/BeeTest?style=social"></a>
+  <a href="https://github.com/BeeTestCoop/BeeTest/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/BeeTestCoop/BeeTest?style=social"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/shaunhuynhaegistack/BeeTest/releases/latest"><b>⬇ Download the latest release</b></a> ·
+  <a href="https://github.com/BeeTestCoop/BeeTest/releases/latest"><b>⬇ Download the latest release</b></a> ·
   <a href="https://discord.gg/xrbspQ5gDY"><b>💬 Join the Discord</b></a> ·
   <a href="https://beetest.cloud">Website</a> ·
   <a href="https://beetest.cloud/pricing/">Pricing</a>
@@ -26,7 +26,7 @@
 ---
 
 This repository hosts the **BeeTest desktop installers** and their release notes. It does not contain the BeeTest
-source code. Download the installers from [Releases](https://github.com/shaunhuynhaegistack/BeeTest/releases).
+source code. Download the installers from [Releases](https://github.com/BeeTestCoop/BeeTest/releases).
 
 > **Tester release.** BeeTest 3.0.2 is an early version for testers. Please report anything that looks wrong (see
 > [Reporting issues](#reporting-issues)).
@@ -39,10 +39,10 @@ Latest version: **3.0.2** (2026-11-23)
 
 | Your computer | File | |
 |---|---|---|
-| Mac with Apple silicon (M1, M2, M3, M4 …) | `BeeTest-3.0.2-mac-arm64.dmg` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.2/BeeTest-3.0.2-mac-arm64.dmg) |
-| Mac with an Intel processor | `BeeTest-3.0.2-mac-x64.dmg` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.2/BeeTest-3.0.2-mac-x64.dmg) |
-| Windows 10 / 11, 64-bit (installer) | `BeeTest-Setup-3.0.2-win-x64.exe` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.2/BeeTest-Setup-3.0.2-win-x64.exe) |
-| Windows 10 / 11, 64-bit (portable, no install) | `BeeTest-3.0.2-win-x64-portable.zip` | [Download](https://github.com/shaunhuynhaegistack/BeeTest/releases/download/v3.0.2/BeeTest-3.0.2-win-x64-portable.zip) |
+| Mac with Apple silicon (M1, M2, M3, M4 …) | `BeeTest-3.0.2-mac-arm64.dmg` | [Download](https://github.com/BeeTestCoop/BeeTest/releases/download/v3.0.2/BeeTest-3.0.2-mac-arm64.dmg) |
+| Mac with an Intel processor | `BeeTest-3.0.2-mac-x64.dmg` | [Download](https://github.com/BeeTestCoop/BeeTest/releases/download/v3.0.2/BeeTest-3.0.2-mac-x64.dmg) |
+| Windows 10 / 11, 64-bit (installer) | `BeeTest-Setup-3.0.2-win-x64.exe` | [Download](https://github.com/BeeTestCoop/BeeTest/releases/download/v3.0.2/BeeTest-Setup-3.0.2-win-x64.exe) |
+| Windows 10 / 11, 64-bit (portable, no install) | `BeeTest-3.0.2-win-x64-portable.zip` | [Download](https://github.com/BeeTestCoop/BeeTest/releases/download/v3.0.2/BeeTest-3.0.2-win-x64-portable.zip) |
 
 Not sure which Mac you have? Apple menu › **About This Mac**. "Chip Apple M…" means Apple silicon (arm64).
 
@@ -139,7 +139,7 @@ Upgrade inside the app: **Profile › Plan**. See [beetest.cloud/pricing](https:
   features and meet the team.
 - **🎁 Early Tester program:** report a real bug (in the app, or in the Discord `#issues` forum) and get **3 months of
   BeeTest Pro**.
-- Questions and ideas are also welcome in [GitHub Discussions](https://github.com/shaunhuynhaegistack/BeeTest/discussions).
+- Questions and ideas are also welcome in [GitHub Discussions](https://github.com/BeeTestCoop/BeeTest/discussions).
 
 ## Reporting issues
 
