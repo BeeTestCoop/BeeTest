@@ -1,3 +1,23 @@
+# BeeTest 3.0.4
+
+Released 2026-11-24 · Desktop app for macOS and Windows · Tester release
+
+- **Screen sharing like Teams** – choose a whole screen or one window side by side; a light-green frame shows what
+  you share (it follows a shared window), a small "You are sharing your screen · Stop sharing" bar sits at the top,
+  and a compact meeting window (time, camera, microphone, back to the call, leave, a preview of what you share and who
+  is speaking) floats over your other apps. None of these appear in what the others see. Your own call window no
+  longer shows a mirror of your screen.
+- **Calls on hold** – answering a call while you are in another one puts the first call on hold instead of leaving
+  it; a bar lets you resume or hang up, and the others see "On hold".
+- **Cleaner filters** – single-choice filters (test kind, question status, draft status, run result) are compact
+  dropdowns with counts instead of long rows of chips.
+- Fixes found by the go-live end-to-end check (two installs on one team, Pro billing, Admin console, Community Teams
+  and meetings), a language review of the admin, license, call and calendar texts in 6 languages, and per-seat billing
+  wording.
+- Install steps, system requirements and known limitations are the same as 3.0.0 below.
+
+---
+
 # BeeTest 3.0.3
 
 Released 2026-11-24 · Desktop app for macOS and Windows · Tester release
