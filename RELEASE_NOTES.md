@@ -1,3 +1,30 @@
+# BeeTest 3.0.6
+
+Released 2026-11-25 · Desktop app for macOS and Windows · Tester release
+
+- **Update in one click** – BeeTest tells you inside the app when a new version is out; "Update now" downloads it,
+  checks it (size and SHA-256) and installs it, then opens the new version. Your data, keys and settings stay. If the
+  website cannot be reached, the update is read from GitHub.
+- **Ask BeeTest asks before it acts** – questions get a plain answer. When you ask it to do something in BeeTest
+  (open a page, run tests, create a test case, file a bug…), it offers "Yes, do it" or "No, just tell me how", then
+  does it on the screens while you watch and can stop it. Under the message box choose **Ask before acting**
+  (default) or **Full access** (acts without asking; deletes and steps that cannot be undone still ask). Admins can
+  turn Full access off per project.
+- **The desktop bee** – stays on your desktop while BeeTest runs (right-click › Hide Bee to put it away). It flies,
+  walks and rests near the screen edges, blinks, yawns, lounges at lunch and sleeps at night, and stays still while
+  you point at it or share your screen. When work finishes while BeeTest is in the background, it pops a speech
+  bubble with the result and a soft "ting" (sound and flying can be turned off).
+- **Runs** – while several test cases run you see which one is running, passed or failed; the console is grouped per
+  test case; errors are shown in full; a pass that needed a retry or has a failed step says so.
+- **Smaller things** – the Overview shows the top 10 features (with "Show all") in slimmer charts; the logo is clear
+  in dark mode; any profile picture is accepted and made small automatically; Community Teams messages use the full
+  width with the BeeTest mark as its avatar; the privacy policy and terms say that team admins can read team
+  messages for moderation.
+- **Fixes** – the master key and the test engine are kept when you reinstall or update (3.0.5 test builds could fail
+  to start); the run page no longer leaves a tall empty space under a long log; the Overview tooltip no longer greys
+  the chart.
+- Install steps, system requirements and known limitations are the same as 3.0.0 below.
+
 # BeeTest 3.0.4
 
 Released 2026-11-24 · Desktop app for macOS and Windows · Tester release
