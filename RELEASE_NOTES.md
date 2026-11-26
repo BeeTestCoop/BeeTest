@@ -1,3 +1,37 @@
+# BeeTest 3.0.7
+
+Released 2026-11-26 · Desktop app for macOS and Windows · Tester release
+
+- **BeeTest found** – after every web run an AI QA Principal looks at each screen the test visited, with its own
+  judgement and not only what the test case checks: confusing or repeated controls, clipped text, things that do not
+  match the rest of the app, dark mode, phone width, right-to-left, wording, accessibility, visible security problems.
+  Every finding points at its proof on the screen and is checked again by a second, independent AI. Findings are on
+  the run page and in Needs you: **Real bug** files a Work bug with the marked picture, **Intended** is remembered and
+  not raised again, **Not a bug** teaches BeeTest. A cost limit applies (tokens on a subscription, $ with an API key).
+- **Pull request checks read like a principal QA, an architect and a security engineer** – Development Testing looks
+  again at the changed features' screens in dark, at 390 px and right to left, and reads the pull request's code for
+  design, correctness, data, compatibility, speed, missing tests and security (injection, access checks such as IDOR,
+  secrets, risky dependencies). Every code finding quotes the changed lines. Critical or high security, data or
+  behaviour findings block the merge check; the rest warn (`gate.findings` in beetest.yml). Findings are in the CLI,
+  the report and the pull request comment.
+- **Security tests on the branch environment (opt-in)** – with `review.security_probe: auto` or `on`, BeeTest sends
+  harmless test requests to the branch environment only (never another host or production) and reports what it
+  proves, with the request and the answer, masked. Off by default: some AI providers refuse to plan such requests.
+- **Ask BeeTest looks things up itself** – when you ask about your project (a cost, a duration, a run, a test case's
+  history…), it reads the data itself, read only and with your role, and answers with the numbers instead of sending
+  you to a page. A question whose answer never came offers **Ask again**.
+- **Development Testing picks the right tests** – from the KB Test map (core cases on every push, linked cases on a
+  pull request), coverage per changed feature, what is not tested and why, user-level drafts; **Autopilot** writes,
+  verifies and automates the missing cases on the branch within a per-branch cost limit; guided **set-up of pull
+  request checks** for a GitHub repository (5 steps) from Ask BeeTest or Development Testing.
+- **Test map in the KB** – features with their test cases, core happy paths, requirements, screens, endpoints and code.
+- **Smaller things** – every step of web, mobile and API runs shows how long it took; meeting notes by topic in
+  Community Teams calls; the Devices live screen has the shape of its device; a Like bee among the reactions.
+- **Fixes** – one "Done" in the issue panel; the add-reaction button no longer leaves a gap once a comment has
+  reactions; "1 person" instead of "1 people"; the Watch button is named for screen readers; Development Testing no
+  longer reads merge commits as an intended change or a silent environment failure as intended.
+- Install steps, system requirements and known limitations are the same as 3.0.0 below.
+
 # BeeTest 3.0.6
 
 Released 2026-11-25 · Desktop app for macOS and Windows · Tester release
